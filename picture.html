@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/picture.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div id="navbar">
+        <img src="./images/logo.png" id="logo">
+        <ul id="navbar-list">
+            <a href="index.html"><li id="nb-list">Home</a></li>
+            <a href="product.html"><li id="nb-list">Products and Services</a></li>
+            <a href="about.html"><li id="nb-list">About Us</a></li>
+            <a href="contact.html"><li id="nb-list">Contact Us</a></li>
+        </ul>
+    </div>
+    <br><br><br><br>
+    <h1>PICTURE TAKING</h1>
+    <div id="pic-info">
+        <div id="info-card">
+            <img id="info-pic" src="https://expertphotography.b-cdn.net/wp-content/uploads/2020/07/social-media-for-photographers-follow-1.jpg">
+            Immerse yourself in the world of professional photography with our skilled and creative photographers.
+        </div>
+        <div id="info-card">
+            <img id="info-pic" src="https://www.adorama.com/alc/wp-content/uploads/2021/07/Photography-for-Beginners.jpg">
+            Let us capture the essence of your special events. From weddings and birthdays to corporate gatherings, our event photography service ensures every smile, laugh, and heartfelt moment is documented beautifully.
+        </div>
+        <div id="info-card">
+            <img id="info-pic" src="https://www.pangolinphoto.com/wp-content/uploads/2020/05/Guest-with-camera-gear-on-safari-in-Botswana-Pangolin-Photo-Safaris-scaled.webp">
+            Elevate your personal or professional image with our studio portrait sessions. Showcase your products in the best light.
+        </div>
+    </div>
+    <br><br><br>
+    
+    <div id="gallery-section">
+        <h1 id="white-h1">Gallery</h1>
+        <h3 id="white-h3">View our sample images here!</h3>
+        <div id="gallery">
+            <div id="gallery-scroll">
+                <img src="https://www.villesommet.ph/cdn/shop/products/viber_image_2400x.jpg?v=1574753783">
+                <img src="https://www.khimcruz.com/wp-content/uploads/2023/04/disney-enchanted-inspired-18th-birthday-debut-of-Tristine-spring-flowers-of-Central-Park-by-event-designer-Khim-Cruz.webp">
+                <img src="https://alternation.ph/wp-content/uploads/2022/12/event-styling-7.jpg">
+                <img src="https://www.partycuratorsphilippines.com/wp-content/uploads/2020/06/DSCF5096.jpg">
+                <img src="https://www.laideguzman.com/wp-content/uploads/2019/11/7.png">
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <h1>Answer the Form!</h1>
+    <h3>Sign up for our photography service today</h3>
+    <div id="form">
+        <form action="#" method="post">
+          <label for="clientName">Client's Name</label>
+          <input type="text" id="clientName" name="clientName" required>
+    
+          <label for="contactNumber">Contact Number</label>
+          <input type="tel" id="contactNumber" name="contactNumber" pattern="[0-9]{10}" placeholder="09123456789" required>
+    
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="eventType">Type of Event</label>
+          <select id="eventType" name="eventType" required>
+            <option value="" disabled selected>Select Event Type</option>
+            <option value="wedding">Wedding</option>
+            <option value="birthday">Birthday Party</option>
+            <option value="portrait">Portrait Session</option>
+            <option value="other">Other</option>
+          </select>
+    
+          <label for="date">Preferred Date</label>
+          <input type="date" id="date" name="date" required>
+    
+          <label for="preferences">Additional Preferences</label>
+          <textarea id="preferences" name="preferences" rows="4"></textarea>
+    
+          <button type="submit" onclick="window.alert('Successfully signed up!')">Submit</button>
+        </form>
+    </div>
+    <section class="info_section layout_padding2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3 info_col">
+              <div class="info_contact">
+                <h4>
+                  Address
+                </h4>
+                <div class="contact_link_box">
+                  <a href="">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <span>
+                      0151 Bagtas Rd, Tanza, Cavite
+                    </span>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>
+                      Call +63 916 608 0258
+                    </span>
+                  </a>
+                  <a href="">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span>
+                      rhettsph@gmail.com
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="info_social">
+                <a href="https://www.facebook.com/Rhettsph">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 info_col">
+              <div class="info_detail">
+                <h4>
+                  Info
+                </h4>
+                <p>
+                  Rhett's: Your premier destination for top-notch services tailored to meet your diverse needs.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-2 mx-auto info_col">
+              <div class="info_link_box">
+                <h4>
+                  Links
+                </h4>
+                <div class="info_links">
+                  <a class="active" href="index.html">
+                    Home
+                  </a>
+                  <a class="" href="#">
+                    About
+                  </a>
+                  <a class="" href="product.html">
+                    Products and Services
+                  </a>
+                  <a class="" href="contact.html">
+                    Contact Us
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 info_col ">
+              <h4>
+                Subscribe for daily offers
+              </h4>
+              <form action="#">
+                <input type="text" placeholder="Enter email" />
+                <button type="submit" onclick="window.alert('You have subscribed!')">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
